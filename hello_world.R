@@ -1,14 +1,13 @@
 
 library(usethis)
 
+# Sessió 2
 use_git()
 use_github()
 
 print("Hello World")
 
 print("Prova push")
-
-print("Prova push2")
 
 # Mandelbrot set
 mandelbrot <- function(x0, c, times){
